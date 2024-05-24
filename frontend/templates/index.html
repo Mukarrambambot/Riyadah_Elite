@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyadah Elite - Home</title> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"> <!-- Include your main stylesheet -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="{{ url_for('static', filename='ima/Riyadah Elite.jpg') }}" alt="Riyadah Elite Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/features">Features</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/tournaments">Tournaments</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/community">Community</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/contact">Contact</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/signup_login">Sign Up / Log In</a></li> <!-- Modify the href attributes -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Level Up Your Game with Riyadah Elite</h1>
+            <p>Are you a student gamer passionate about contributing to the industry and crushing the competition? Riyadah Elite is your launchpad to success.</p>
+            <a href="/signup_login" class="cta-button">Join Now</a>
+
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Riyadah Elite?</h2>
+            <div class="feature">
+                <h3>Dual Focus</h3>
+                <p>We're the only platform that combines game testing with esports, offering a complete path for your gaming ambitions.</p>
+            </div>
+            <div class="feature">
+                <h3>Skill Up & Earn</h3>
+                <p>Provide valuable feedback to developers through flexible testing tasks and get rewarded for your expertise.</p>
+            </div>
+            <div class="feature">
+                <h3>Compete & Conquer</h3>
+                <p>Join thrilling esports tournaments, hone your skills in practice matches, and form teams to dominate the scene.</p>
+            </div>
+            <div class="feature">
+                <h3>Thriving Community</h3>
+                <p>Connect with fellow students, share experiences, and build a supportive network that fuels your growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <p>&copy; 2024 Riyadah Elite. All rights reserved.</p>
+        </div>
+    </section>
+</body>
+</html>

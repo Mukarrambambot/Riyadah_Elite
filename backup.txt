@@ -1,0 +1,1381 @@
+D:\WEBSITE\Riyadah Elite\frontend\templates\index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyadah Elite - Home</title> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"> <!-- Include your main stylesheet -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="{{ url_for('static', filename='ima/Riyadah Elite.jpg') }}" alt="Riyadah Elite Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/features">Features</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/tournaments">Tournaments</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/community">Community</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/contact">Contact</a></li> <!-- Modify the href attributes -->
+                    <li><a href="/signup_login">Sign Up / Log In</a></li> <!-- Modify the href attributes -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Level Up Your Game with Riyadah Elite</h1>
+            <p>Are you a student gamer passionate about contributing to the industry and crushing the competition? Riyadah Elite is your launchpad to success.</p>
+            <a href="signup_login.html" class="cta-button">Join Now</a>
+
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Riyadah Elite?</h2>
+            <div class="feature">
+                <h3>Dual Focus</h3>
+                <p>We're the only platform that combines game testing with esports, offering a complete path for your gaming ambitions.</p>
+            </div>
+            <div class="feature">
+                <h3>Skill Up & Earn</h3>
+                <p>Provide valuable feedback to developers through flexible testing tasks and get rewarded for your expertise.</p>
+            </div>
+            <div class="feature">
+                <h3>Compete & Conquer</h3>
+                <p>Join thrilling esports tournaments, hone your skills in practice matches, and form teams to dominate the scene.</p>
+            </div>
+            <div class="feature">
+                <h3>Thriving Community</h3>
+                <p>Connect with fellow students, share experiences, and build a supportive network that fuels your growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <p>&copy; 2024 Riyadah Elite. All rights reserved.</p>
+        </div>
+    </section>
+</body>
+</html>
+
+
+D:\WEBSITE\Riyadah Elite\frontend\templates\features.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyadah Elite - Features</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Features.css') }}"> <!-- Include your main stylesheet -->
+<body>
+    <header>
+        <div class="container">
+            <img src="{{ url_for('static', filename='ima/Riyadah Elite.jpg') }}" alt="Riyadah Elite Logo" class="logo">
+            <nav>
+                <ul>
+                    <ul>
+                        <li><a href="/">Home</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/features">Features</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/tournaments">Tournaments</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/community">Community</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/contact">Contact</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/signup_login">Sign Up / Log In</a></li> <!-- Modify the href attributes -->
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Game Testing</h2>
+            <div class="feature">
+                <h3>Tiered Reward System</h3>
+                <p>Implement a points system where users earn points for completing testing tasks. These points can be redeemed for:</p>
+                <ul>
+                    <li>In-game items: Partner with game developers to offer exclusive in-game items as rewards.</li>
+                    <li>Discounts on future games: Partner with game stores or platforms to offer students discounts on game purchases.</li>
+                    <li>Increased testing opportunities: High-performing testers can unlock access to exclusive testing projects with higher rewards.</li>
+                </ul>
+            </div>
+            <div class="feature">
+                <h3>Raffles and Contests</h3>
+                <p>Host regular raffles and contests where testers can win exciting prizes like:</p>
+                <ul>
+                    <li>Gaming hardware (e.g., headsets, controllers)</li>
+                    <li>Subscriptions to gaming services</li>
+                    <li>Gift cards for game stores</li>
+                </ul>
+            </div>
+
+            <h2>Esports Tournaments</h2>
+            <div class="feature">
+                <h3>Tournament Entry Fees</h3>
+                <p>Organize tournaments with optional entry fees. A portion of the entry fee goes towards the prize pool, incentivizing participation and offering a chance to win real money.</p>
+            </div>
+            <div class="feature">
+                <h3>Sponsored Tournaments</h3>
+                <p>Partner with brands or organizations to sponsor tournaments. Sponsors can offer additional prizes or contribute to the prize pool, increasing the potential earnings for winning teams.</p>
+            </div>
+
+            <h2>Additional Income Streams</h2>
+            <div class="feature">
+                <h3>Subscription Model</h3>
+                <p>Offer a premium subscription tier with additional benefits like:</p>
+                <ul>
+                    <li>Priority access to testing tasks</li>
+                    <li>Increased points earned per task</li>
+                    <li>Exclusive content or discounts</li>
+                </ul>
+            </div>
+            <div class="feature">
+                <h3>Content Creation</h3>
+                <p>Allow users to create and share gaming content (e.g., guides, reviews, streams) on the platform. Partner with brands for sponsored content creation opportunities where users can earn money.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <p>&copy; 2024 Riyadah Elite. All rights reserved.</p>
+        </div>
+    </section>
+</body>
+</html>
+
+D:\WEBSITE\Riyadah Elite\frontend\templates\tournaments.html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyadah Elite - Features</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Features.css') }}"> <!-- Include your main stylesheet -->
+<body>
+    <header>
+        <div class="container">
+            <img src="{{ url_for('static', filename='ima/Riyadah Elite.jpg') }}" alt="Riyadah Elite Logo" class="logo">
+            <nav>
+                <ul>
+                    <ul>
+                        <li><a href="/">Home</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/features">Features</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/tournaments">Tournaments</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/community">Community</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/contact">Contact</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/signup_login">Sign Up / Log In</a></li> <!-- Modify the href attributes -->
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Compete and Conquer: Join Thrilling Esports Tournaments!</h1>
+            <!-- Hero image or video -->
+        </div>
+    </section>
+
+    <section class="upcoming-tournaments">
+        <div class="container">
+            <h2>Upcoming Tournaments</h2>
+            <!-- Listing of upcoming tournaments -->
+            <div class="tournament">
+                <h3>Game Title</h3>
+                <p>Tournament Format</p>
+                <p>Registration Dates</p>
+                <p>Prize Pool</p>
+                <a href="#" class="register-button">Register Now</a>
+            </div>
+            <!-- Repeat the above tournament details for each upcoming tournament -->
+        </div>
+    </section>
+
+    <section class="previous-tournaments">
+        <div class="container">
+            <h2>Previous Tournaments</h2>
+            <!-- Listing of previous tournaments with results -->
+            <div class="tournament">
+                <h3>Game Title</h3>
+                <p>Results</p>
+                <!-- Include match replays or highlights -->
+            </div>
+            <!-- Repeat the above tournament details for each previous tournament -->
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <!-- Footer content -->
+            <p>&copy; 2024 Riyadah Elite. All rights reserved.</p>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+D:\WEBSITE\Riyadah Elite\frontend\templates\contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyadah Elite - Features</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Features.css') }}"> <!-- Include your main stylesheet -->
+<body>
+    <header>
+        <div class="container">
+            <img src="{{ url_for('static', filename='ima/Riyadah Elite.jpg') }}" alt="Riyadah Elite Logo" class="logo">
+            <nav>
+                <ul>
+                    <ul>
+                        <li><a href="/">Home</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/features">Features</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/tournaments">Tournaments</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/community">Community</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/contact">Contact</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/signup_login">Sign Up / Log In</a></li> <!-- Modify the href attributes -->
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for any inquiries, feedback, or partnership opportunities!</p>
+        </div>
+    </section>
+    
+    <section class="contact-details">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: riyadahelite@gmail.com</li>
+                <li>Whatsapp link: </li>
+                <li>Social Media:</li>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="contact-form">
+        <div class="container">
+            <h2>Send Us a Message</h2>
+            <form action="submit_contact.php" method="POST"> <!-- Replace "submit_contact.php" with your actual form processing script -->
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Riyadah Elite. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+D:\WEBSITE\Riyadah Elite\frontend\templates\community.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyadah Elite - Features</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Features.css') }}"> <!-- Include your main stylesheet -->
+<body>
+    <header>
+        <div class="container">
+            <img src="{{ url_for('static', filename='ima/Riyadah Elite.jpg') }}" alt="Riyadah Elite Logo" class="logo">
+            <nav>
+                <ul>
+                    <ul>
+                        <li><a href="/">Home</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/features">Features</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/tournaments">Tournaments</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/community">Community</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/contact">Contact</a></li> <!-- Modify the href attributes -->
+                        <li><a href="/signup_login">Sign Up / Log In</a></li> <!-- Modify the href attributes -->
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="community-hub">
+        <div class="container">
+            <h2>Community Hub</h2>
+            <p>Create a vibrant hub where student gamers can connect, share experiences, and build a supportive network.</p>
+        </div>
+    </section>
+
+    <section class="discussion-forums">
+        <div class="container">
+            <h2>Discussion Forums</h2>
+            <p>Implement forums dedicated to specific games, testing experiences, or general gaming discussions to encourage interaction.</p>
+        </div>
+    </section>
+
+    <section class="chat-functionality">
+        <div class="container">
+            <h2>Chat Functionality</h2>
+            <p>Consider integrating a chat feature (text or voice) for real-time communication among students.</p>
+        </div>
+    </section>
+
+    <!-- More sections can be added for User Profiles, Member Recognition, Content and Resources, etc. -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Riyadah Elite. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+D:\WEBSITE\Riyadah Elite\frontend\templates\signup_login.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content=" 
+ Animated Login & Registration Form,Form Design,HTML and CSS,HTML CSS JavaScript,login & registration form,login & signup form,Login Form Design,registration form,Signup Form,HTML,CSS,JavaScript,
+"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login & Signup Form HTML CSS</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/signup_login.css') }}"> <!-- Include your main stylesheet -->
+    <script src="../custom-scripts.js" defer></script>
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="form signup">
+        <header>Signup</header>
+        <form action="#">
+          <input type="text" placeholder="Full name" required />
+          <input type="text" placeholder="Email address" required />
+          <input type="password" placeholder="Password" required />
+          <div class="checkbox">
+            <input type="checkbox" id="signupCheck" />
+            <label for="signupCheck">I accept all terms & conditions</label>
+          </div>
+          <input type="submit" value="Signup" />
+        </form>
+      </div>
+
+      <div class="form login">
+        <header>Login</header>
+        <form action="#">
+          <input type="text" placeholder="Email address" required />
+          <input type="password" placeholder="Password" required />
+          <a href="#">Forgot password?</a>
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+
+      <script>
+        const wrapper = document.querySelector(".wrapper"),
+          signupHeader = document.querySelector(".signup header"),
+          loginHeader = document.querySelector(".login header");
+
+        loginHeader.addEventListener("click", () => {
+          wrapper.classList.add("active");
+        });
+        signupHeader.addEventListener("click", () => {
+          wrapper.classList.remove("active");
+        });
+      </script>
+    </section>
+  </body>
+</html>
+
+D:\WEBSITE\Riyadah Elite\frontend\static\css\style.css
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Logo styles */
+.logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the logo */
+    top: 20px; /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    z-index: 999; /* Ensure the logo appears above other content */
+}
+
+/* Navigation styles */
+nav {
+    position: absolute; /* Position the navigation bar */
+    top: 20px; /* Adjust the top position */
+    left: 90px; /* Adjust the left position to align with the logo */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url("D:\WEBSITE\Riyadah Elite\frontend\images\hero-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #555;
+}
+
+/* Features section styles */
+.features {
+    padding: 50px 0;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+.features .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    margin-bottom: 10px;
+}
+
+.features .feature ul {
+    margin-left: 20px;
+}
+
+.features .feature ul li {
+    list-style-type: disc;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+D:\WEBSITE\Riyadah Elite\frontend\static\css\features.css
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the logo */
+    top: 20px; /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    z-index: 999; /* Ensure the logo appears above other content */
+}
+
+nav {
+    position: absolute; /* Position the navigation bar */
+    top: 20px; /* Adjust the top position */
+    left: 90px; /* Adjust the left position to align with the logo */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Features section styles */
+.features {
+    padding: 50px 0;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+.features .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    margin-bottom: 10px;
+}
+
+.features .feature ul {
+    margin-left: 20px;
+}
+
+.features .feature ul li {
+    list-style-type: disc;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+D:\WEBSITE\Riyadah Elite\frontend\static\css\tournaments.css
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Logo styles */
+.logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the logo */
+    top: 20px; /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    z-index: 999; /* Ensure the logo appears above other content */
+}
+
+/* Navigation styles */
+nav {
+    position: absolute; /* Position the navigation bar */
+    top: 20px; /* Adjust the top position */
+    left: 90px; /* Adjust the left position to align with the logo */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #555;
+}
+
+/* Upcoming Tournaments section styles */
+.upcoming-tournaments {
+    padding: 50px 0;
+}
+
+.upcoming-tournaments h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tournament {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tournament h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tournament p {
+    margin-bottom: 10px;
+}
+
+.tournament .register-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tournament .register-button:hover {
+    background-color: #555;
+}
+
+/* Previous Tournaments section styles */
+.previous-tournaments {
+    padding: 50px 0;
+}
+
+.previous-tournaments h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.previous-tournaments .tournament {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.previous-tournaments .tournament h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.previous-tournaments .tournament p {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+D:\WEBSITE\Riyadah Elite\frontend\static\css\contact.css
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Logo styles */
+.logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the logo */
+    top: 20px; /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    z-index: 999; /* Ensure the logo appears above other content */
+}
+
+/* Navigation styles */
+nav {
+    position: absolute; /* Position the navigation bar */
+    top: 20px; /* Adjust the top position */
+    left: 90px; /* Adjust the left position to align with the logo */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Contact Information section styles */
+.contact-details {
+    padding: 50px 0;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-details ul {
+    list-style-type: none;
+}
+
+.contact-details ul li {
+    margin-bottom: 10px;
+}
+
+.contact-details ul li a {
+    color: #333;
+}
+
+.contact-details ul li a:hover {
+    color: #555;
+}
+
+/* Contact Form section styles */
+.contact-form {
+    padding: 50px 0;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+D:\WEBSITE\Riyadah Elite\frontend\static\css\community.css
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Logo styles */
+.logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the logo */
+    top: 20px; /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    z-index: 999; /* Ensure the logo appears above other content */
+}
+
+/* Navigation styles */
+nav {
+    position: absolute; /* Position the navigation bar */
+    top: 20px; /* Adjust the top position */
+    left: 90px; /* Adjust the left position to align with the logo */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Community Hub section styles */
+.community-hub {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.community-hub h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.community-hub p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Discussion Forums section styles */
+.discussion-forums {
+    padding: 50px 0;
+}
+
+.discussion-forums h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.discussion-forums p {
+    margin-bottom: 20px;
+}
+
+/* Chat Functionality section styles */
+.chat-functionality {
+    padding: 50px 0;
+}
+
+.chat-functionality h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.chat-functionality p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+D:\WEBSITE\Riyadah Elite\frontend\css\signup_login.css
+
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0faff;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 470px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px 30px 120px;
+  background: #333; /* Changed background color */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form.login {
+  position: absolute;
+  left: 50%;
+  bottom: -86%;
+  transform: translateX(-50%);
+  width: calc(100% + 220px);
+  padding: 20px 140px;
+  border-radius: 50%;
+  height: 100%;
+  background: #fff;
+  transition: all 0.6s ease;
+}
+
+.wrapper.active .form.login {
+  bottom: -15%;
+  border-radius: 35%;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form header {
+  font-size: 30px;
+  text-align: center;
+  color: #fff; /* Changed text color */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form.login header {
+  color: #333;
+  opacity: 0.6;
+}
+
+.wrapper.active .form.login header {
+  opacity: 1;
+}
+
+.wrapper.active .signup header {
+  opacity: 0.6;
+}
+
+.wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+form input {
+  height: 60px;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.form.login input {
+  border: 1px solid #aaa;
+}
+
+.form.login input:focus {
+  box-shadow: 0 1px 0 #ddd;
+}
+
+form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+  accent-color: #fff;
+  cursor: pointer;
+}
+
+form .checkbox label {
+  cursor: pointer;
+  color: #fff; /* Changed text color */
+}
+
+form a {
+  color: #333;
+  text-decoration: none;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+form input[type="submit"] {
+  margin-top: 15px;
+  padding: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form.login input[type="submit"] {
+  background: #333; /* Changed background color */
+  color: #fff; /* Changed text color */
+  border: none;
+}
+
+D:\WEBSITE\Riyadah Elite\frontend\static\images\hero-banner.jpg
+D:\WEBSITE\Riyadah Elite\frontend\static\images\Riyadah Elite.jpg

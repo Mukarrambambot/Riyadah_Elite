@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the logo */
+    top: 20px; /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    z-index: 999; /* Ensure the logo appears above other content */
+}
+
+nav {
+    position: absolute; /* Position the navigation bar */
+    top: 20px; /* Adjust the top position */
+    left: 90px; /* Adjust the left position to align with the logo */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Features section styles */
+.features {
+    padding: 50px 0;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features .feature {
+    margin-bottom: 30px;
+}
+
+.features .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.features .feature p {
+    margin-bottom: 10px;
+}
+
+.features .feature ul {
+    margin-left: 20px;
+}
+
+.features .feature ul li {
+    list-style-type: disc;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
