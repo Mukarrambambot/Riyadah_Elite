@@ -3,7 +3,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 from database import login
 
-app = Flask(__name__, static_folder='D:/WEBSITE/Riyadah Elite/frontend/static', template_folder='D:/WEBSITE/Riyadah Elite/frontend/templates')
+app = Flask(__name__, template_folder='frontend/templates', static_folder='frontend/static')
 
 @app.route('/')
 def index():
