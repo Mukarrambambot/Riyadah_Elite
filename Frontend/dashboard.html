@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dashboard.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="signup_login.html">Login/Signup</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <div class="dashboard-container">
+        <header>
+            <h1>Welcome, [User Name]</h1>
+            <p>Your personalized dashboard</p>
+        </header>
+
+        <section class="income">
+            <h2>Income Details</h2>
+            <p>Total Income: $[Total Income]</p>
+            <button onclick="requestWithdrawal()">Request Withdrawal</button>
+        </section>
+
+        <section class="game-status">
+            <h2>Game Completion Status</h2>
+            <ul>
+                <li>Completing: [Number]</li>
+                <li>Ongoing: [Number]</li>
+                <li>Completed: [Number]</li>
+            </ul>
+        </section>
+
+        <section class="tournaments">
+            <h2>Tournament Participation</h2>
+            <ul>
+                <li>Upcoming: [Tournament Names]</li>
+                <li>Past: [Tournament Names]</li>
+            </ul>
+        </section>
+
+        <section class="profile">
+            <h2>Profile Details</h2>
+            <p>Name: [User Name]</p>
+            <p>Email: [User Email]</p>
+            <button onclick="editProfile()">Edit Profile</button>
+        </section>
+
+        <section class="settings">
+            <h2>Settings</h2>
+            <button onclick="logout()">Logout</button>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}" defer></script>
+</body>
+</html>

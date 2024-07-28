@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Animated Login & Registration Form,Form Design,HTML and CSS,HTML CSS JavaScript,login & registration form,login & signup form,Login Form Design,registration form,Signup Form,HTML,CSS,JavaScript," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Signup Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/signup_login.css') }}"> <!-- Include your main stylesheet -->
+    <script src="{{ url_for('static', filename='js/custom-scripts.js') }}" defer></script> <!-- Ensure your custom scripts are correctly referenced -->
+</head>
+<body>
+    <section class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link to home page -->
+                <li><a href="signup_login.html">Login/Signup</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li> <!-- Link to dashboard page -->
+            </ul>
+        </nav>
+        <div class="form signup">
+            <header>Signup</header>
+            <form action="/signup" method="POST"> <!-- Update action attribute to point to your backend signup route -->
+                <input type="text" name="fullname" placeholder="Full name" required />
+                <input type="email" name="email" placeholder="Email address" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <div class="checkbox">
+                    <input type="checkbox" id="signupCheck" required />
+                    <label for="signupCheck">I accept all terms & conditions</label>
+                </div>
+                <input type="submit" value="Signup" />
+            </form>
+        </div>
+
+        <div class="form login">
+            <header>Login</header>
+            <form action="/login" method="POST"> <!-- Update action attribute to point to your backend login route -->
+                <input type="email" name="email" placeholder="Email address" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <a href="/forgot-password">Forgot password?</a> <!-- Link to the forgot password page -->
+                <input type="submit" value="Login" />
+            </form>
+        </div>
+
+        <script>
+            const wrapper = document.querySelector(".wrapper"),
+                  signupHeader = document.querySelector(".signup header"),
+                  loginHeader = document.querySelector(".login header");
+
+            loginHeader.addEventListener("click", () => {
+                wrapper.classList.add("active");
+            });
+            signupHeader.addEventListener("click", () => {
+                wrapper.classList.remove("active");
+            });
+        </script>
+    </section>
+</body>
+</html>
